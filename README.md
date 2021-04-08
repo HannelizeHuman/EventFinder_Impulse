@@ -43,7 +43,7 @@ THEN I can add event to my calendar
 ## Project Requirements:
 * Include two server-side API’s
     * Ticketmaster  
-    * Google Calander
+    * Google Calendar
 * CSS Frame work
     *	Bootrap/Materialize
 *	Client-side Storage
@@ -52,7 +52,7 @@ THEN I can add event to my calendar
     *	Indentation
     *	Scoping	
     *	Naming
-*	NO alers, confirms, prompts
+*	NO alerts, confirms, prompts
     *	Make use of Modals
 *	GitHub pages
     *	Deployed
