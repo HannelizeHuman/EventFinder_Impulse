@@ -1,26 +1,21 @@
 body {
-    background-color: #1F424E;
+    background-color: #ecf2f5;
     background-size: cover;
 }
 
-.hero-full-screen {
-    height: 100vh;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+
+p {
+    font-size: 20px;
 }
 
-.hero-full-screen .middle-content-section {
-    text-align: center;
-    color: #D6E5E8;
-    margin-top: 15%;
+/* Button */
+button {
+    margin: 5px;
 }
+
+@media only screen and (max-width: 767px) {
+    .menu {
+      flex-direction: column;
+    }
+    
+  }
