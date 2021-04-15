@@ -7,7 +7,10 @@
 - [Project Description](#Project-Description)
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
-- [Project Requirements](#Project-Requirements)
+- [Project Features](#Project-Features)
+- [Installation](#Installation)
+- [Links](#Links)
+- [User Instructions](#User-Instructions)
 
 
 ## Team Members:
@@ -40,7 +43,7 @@ WHEN I select an event I am interested in
 THEN I can add event to my calendar 
 ```
 
-## Project Requirements:
+## Project Features:
 * Include two server-side API’s
     * Ticketmaster  
     * Zomato
@@ -60,9 +63,33 @@ THEN I can add event to my calendar
 
 <br>
 
+# Installation
+To access this project you can follow the deployment link. Or, download the sources files to use this as a template.
+
 ## Links:
-* Deployed: https://hannelizehuman.github.io/EventFinder_Impulse/#
-* GitHub repo: https://github.com/HannelizeHuman/EventFinder_Impulse
+1. Deployed: https://hannelizehuman.github.io/EventFinder_Impulse/#
+2. GitHub repo: https://github.com/HannelizeHuman/EventFinder_Impulse
+
+## User Instructons
+## 1. Deployed Link
+    1. Click deployed link
+    2. Once site is opened, user will be presented with a landing.
+    3. On landing page user will have the option to search eiter "Resturants" or "Events"
+    4. User will be directed to selected page
+
+## 2. GitHub Repo
+    1. You can download or clone repository to your local machine.
+    2. Use a text editor, such as VisualStudio code, to view all code.
+    3. Now open the main page (index.html) in your browser to view webpage.
+
+
+## Resources
+
+The following is a list of resources used for in this project:
+
+- [Unsplash](#https://unsplash.com/images/stock)
+- [Bootstrap](#https://getbootstrap.com/)
+- [Unsplash](#https://unsplash.com/images/stock)
 
 
 
