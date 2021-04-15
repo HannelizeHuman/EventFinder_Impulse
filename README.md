@@ -22,25 +22,33 @@
 
 ## Project Description:
 
-The aim of Project 1 is to collaboratively build a web application from scratch that allows the user to access and save a series of events based on their preferences. 
+The aim of Project 1 is to collaboratively build a web application from scratch that allows the user to access and save a series of events or restaurant based on their preferences. 
 <br>
 
 ## User Story:
 ```
+1. Events:
 AS someone who enjoys going to events
-I WANT to have access to the different evets happening and be able to save my events
-SO THAT I can keep track of the events that I want to go to
+I WANT to be able to search events by interest
+SO THAT I can have easy access to the different evets happening 
+
+2. Restaurant:
+AS  someone who enjoys food
+I WANT to have access to the different restaurant's
+SO THAT I can access a variety of options
+
 ```
 
 ## Acceptance Criteria:
 ```
 GIVEN I am using a daily planner to access events across Sydney
 WHEN I open Impulse
-THEN I am presented with a [filter options]
+THEN I am presented with a landing page
+THAT provides me with two options; Restaurant or Events
 WHEN I enter my preferences
-THEN I am presented with upcoming event options
-WHEN I select an event I am interested in
-THEN I can add event to my calendar 
+THEN I am directed to appropriate web page
+WHEN I am on the selected page
+THEN I am presented with Restaurant or Event options, depending on selection 
 ```
 
 ## Project Features:
