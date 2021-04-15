@@ -1,3 +1,22 @@
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #181717;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --ff-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 00.125em 0.25em rgba(0,0,0,.15);
+}
+
 #bg {
     position: fixed; 
     top: -50%; 
@@ -17,8 +36,9 @@
     min-height: 50%;
 }
 
-p {
+.lead {
     font-size: 20px;
+    text-align: center;
     color: whitesmoke;
 }
 
@@ -37,6 +57,19 @@ button {
 @media only screen and (max-width: 767px) {
     .menu {
       flex-direction: column;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+    .card-body h3 {
+        position: relative;
+        top: 12px;
+    }
+    #cards-id {
+        position: relative;
+        left: 40px;
+        width: 80%;
     }
     
 }
