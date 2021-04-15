@@ -36,7 +36,6 @@ SO THAT I can have easy access to the different evets happening
 AS  someone who enjoys food
 I WANT to have access to the different restaurant's
 SO THAT I can access a variety of options
-
 ```
 
 ## Acceptance Criteria:
