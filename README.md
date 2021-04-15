@@ -43,9 +43,9 @@ THEN I can add event to my calendar
 ## Project Requirements:
 * Include two server-side API’s
     * Ticketmaster  
-    * Google Calendar
+    * Zomato
 * CSS Frame work
-    *	Bootrap/Materialize
+    *	Bootrap
 *	Client-side Storage
 *	Mobile-first UI
 *	Quality Coding Standards
@@ -60,7 +60,10 @@ THEN I can add event to my calendar
 
 <br>
 
-## About Impulse
+## Links:
+* Deployed: https://hannelizehuman.github.io/EventFinder_Impulse/#
+* GitHub repo: https://github.com/HannelizeHuman/EventFinder_Impulse
+
 
 
 
