@@ -1,133 +1,154 @@
 :root {
---ff-primary: 'Source Sans Pro', sans-serif;
- --ff-secondary: 'Source Code Pro', monospace;
-
-    --fw-reg: 300;
-    --fw-bold: 10000;
-
-    --clr-light: #fff;
-    --clr-dark: #181717;
-    --clr-accent: #16e0bd;
-
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --ff-h3: 1.25rem;
-    --fs-body: 1rem;
-
-
-   
-
-    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 00.125em 0.25em rgba(0,0,0,.15);
-}
-
-#restaurant-bg {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
-}
-
-#restaurant-bg img {
-    background-size: cover; 
-    min-width: 50%;
-    min-height: 50%;
-}
-
-#container-fluid {
-    position: absolute;
-    top: 0;
-}
-
-.nav-item {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-#nav-words{
-    font-family: var(--ff-primary);
-    font-size: var(--ff-h1);
-    font-weight: var(--fw-bold);
-}
-p {
-    font-size: 30px;
-    color: whitesmoke;
-}
-
-button {
-    margin: 5px;
-}
-
-.modal-content {
-    top: 200px;
-    background-color: rgb(153, 152, 152);
-    width: 200%;
-}
-
-#searchRestaurant {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+     --ff-secondary: 'Source Code Pro', monospace;
     
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    /* left: -100px; */
-
-}
-
-#cards {
-    width: 70%;
-    height: auto;
-    background-color: rgb(153, 152, 152);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    border-radius: 30px;
-    font-family: var(--ff-secondary);
-    font-size: var(--ff-h3);
-}
-#cards-id {
-    position: relative;
-    top: 30px;
-    width: auto;
-    height: 150px;
-
-}
-
-#cards-h3{
-    font-family: var(--ff-primary);
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
-}
-
-.form {
-    margin:auto;
-    width: 70%;
+        --fw-reg: 300;
+        --fw-bold: 10000;
     
-
-    align-items: center;
-    align-self: center;
-
-}
-
-
-@media only screen and (max-width: 767px) {
-    .menu {
-      flex-direction: column;
+        --clr-light: #fff;
+        --clr-dark: #181717;
+        --clr-accent: #16e0bd;
+    
+        --fs-h1: 3rem;
+        --fs-h2: 2.25rem;
+        --ff-h3: 1.25rem;
+        --fs-body: 1rem;
+    
+    
+       
+    
+        --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 00.125em 0.25em rgba(0,0,0,.15);
     }
-    .cards {
+
+    
+        
+    
+    
+    #restaurant-bg {
+        position: fixed; 
+        top: -50%; 
+        left: -50%; 
+        width: 200%; 
+        height: 200%;
+    }
+    
+    #restaurant-bg img {
+        background-size: cover; 
+        min-width: 50%;
+        min-height: 50%;
+    }
+
+    #results .data {
+        padding-bottom: 30px;
+        border-bottom: 3px solid #16e0bd;
+    
+    }
+
+    img.img-rounded {
+        border-radius: 5px;
+        float: left;
+        margin-right: 20px;
+        width: 100px;
+        
+    }
+    
+    #container-fluid {
+        position: absolute;
+        top: 0;
+    }
+    
+    .nav-item {
         display: flex;
+        text-align: center;
         justify-content: center;
+        align-items: center;
     }
-    .card-body h3 {
-        position: relative;
-        top: 12px;
+    #nav-words{
+        font-family: var(--ff-primary);
+        font-size: var(--ff-h1);
+        font-weight: var(--fw-bold);
+    }
+    p {
+        font-size: 30px;
+        color: whitesmoke;
+    }
+    
+    button {
+        margin: 5px;
+    }
+    
+    .modal-content {
+        top: 200px;
+        background-color: rgb(153, 152, 152);
+        width: 200%;
+    }
+    
+    #searchRestaurant {
+        
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        /* left: -100px; */
+    
+    }
+    
+    #cards {
+        width: 70%;
+        height: auto;
+        background-color: rgb(153, 152, 152);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        border-radius: 30px;
+        font-family: var(--ff-secondary);
+        font-size: var(--ff-h3);
     }
     #cards-id {
         position: relative;
-        left: 40px;
-        width: 80%;
-    }
-}
-  
+        top: 30px;
+        width: auto;
+        height: 150px;
     
+    }
+    
+    #cards-h3{
+        font-family: var(--ff-primary);
+        font-size: var(--fs-h3);
+        font-weight: var(--fw-bold);
+    }
+    
+    .form {
+        margin:auto;
+        width: 70%;
+        
+    
+        align-items: center;
+        align-self: center;
+    
+    }
+    
+    .results {
+        width: 50%;
+        margin: 40px auto;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .menu {
+          flex-direction: column;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+        }
+        .card-body h3 {
+            position: relative;
+            top: 12px;
+        }
+        #cards-id {
+            position: relative;
+            left: 40px;
+            width: 80%;
+        }
+    }
+      
