@@ -21,9 +21,11 @@
     }
 
     
-        
+    body {
+        background: url("../images/rest.jpg") no-repeat center center fixed; 
+        background-size: cover;
     
-    
+    }
     #restaurant-bg {
         position: fixed; 
         top: -50%; 
@@ -32,12 +34,8 @@
         height: 200%;
     }
     
-    #restaurant-bg img {
-        background-size: cover; 
-        min-width: 50%;
-        min-height: 50%;
-    }
-
+    
+    
     #results .data {
         padding-bottom: 30px;
         border-bottom: 3px solid #16e0bd;
@@ -45,10 +43,12 @@
     }
 
     img.img-rounded {
-        border-radius: 5px;
+        border-radius: 10px;
         float: left;
-        margin-right: 20px;
-        width: 100px;
+        margin-right: 60px;
+        margin-left: 30px;
+        width: 120px;
+        
         
     }
     
@@ -129,8 +129,9 @@
     }
     
     .results {
-        width: 50%;
-        margin: 40px auto;
+        width: 40%;
+        margin: 50px auto;
+        background-color: white;
     }
     
     @media only screen and (max-width: 767px) {
