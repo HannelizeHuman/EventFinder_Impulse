@@ -2,8 +2,8 @@ function buildQueryURL() {
   var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?";
   var queryParams = {"apikey":"4wDYyinV6ZsMzVdTn2gRFTJQnFyW6euq"};
 
-  queryParams.keyword = $("#Keyword").val(); 
-  queryParams.city = $("#City").val();
+  queryParams.keyword = $("#keyword").val(); 
+  queryParams.city = $("#city").val();
     
 
   return queryURL + $.param(queryParams);
