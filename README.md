@@ -107,7 +107,6 @@ The following is a list of resources used for in this project:
 
 - [Unsplash](#https://unsplash.com/images/stock)
 - [Bootstrap](#https://getbootstrap.com/)
-- [Unsplash](#https://unsplash.com/images/stock)
 
 
 
