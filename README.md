@@ -1,5 +1,15 @@
 # EventFinder_Impulse
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/HTML5-orange" />
+    <img src="https://img.shields.io/badge/Bootstrap-purple" >
+    <img src="https://img.shields.io/badge/Moment.js-green" />
+    <img src="https://img.shields.io/badge/Ticketnet%20API-orange" />
+    <img src="https://img.shields.io/badge/Zomato%20API-red" />
+</p>
+
 ## Impulse
 
 ## Table of contents:
