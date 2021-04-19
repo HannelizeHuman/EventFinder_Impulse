@@ -87,6 +87,7 @@ To access this project you can follow the deployment link. Or, download the sour
 ## Links:
 1. Deployed: https://hannelizehuman.github.io/EventFinder_Impulse/#
 2. GitHub repo: https://github.com/HannelizeHuman/EventFinder_Impulse
+3. Presentation: https://drive.google.com/file/d/1ZAlkon5NSHHZ2McbsfdIfsmHuOWYJEp6/view?usp=sharing
 
 ## User Instructons
 ## 1. Deployed Link
